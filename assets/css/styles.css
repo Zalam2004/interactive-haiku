@@ -14,16 +14,18 @@ body {
     font-weight: 400;
     font-style: normal;
 	color: whitesmoke;
-	font-size: 5rem;
+	font-size: 3rem;
 	overflow: hidden;
+
 	background: url("../img/Palm\ Trees\ Rain\ GIF.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .grid-container {
-	display:grid;
+	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 2rem;
 	margin: 10% 4rem 0 4rem;
 }
 .last {
